@@ -45,3 +45,11 @@ jobs:
       - name: Run tests
         run: |
           poetry run invoke tests
+
+      - name: Poetry build
+        run: |
+          poetry build
+
+      - name: Poetry publish
+        run: |
+          poetry publish
