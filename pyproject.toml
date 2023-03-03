@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "robotframework-implicitcontext"
-version = "0.1.0"
+version = "0.1.1"
 description = "A robotframework library for managing implicit context for BDD keywords"
 authors = ["Samuel Montgomery-Blinn <sam@caveman.org>"]
 license = "Apache-2.0"

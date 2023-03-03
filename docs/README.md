@@ -25,7 +25,7 @@ USE THE KEYWORDS:
 
     Given a new robotalk titled "My Talk"
     And a new robotalk titled "Another Talk"
-    The first robotalk has not yet received applause
+    Then the first robotalk has not yet received applause
     And the second robotalk has not yet received applause
 
 TK:
