@@ -51,5 +51,7 @@ jobs:
           poetry build
 
       - name: Poetry publish
+        env:
+          POETRY_PYPI_TOKEN_PYPI=${{ secrets.POETRY_PYPI_TOKEN_PYPI }}
         run: |
-          poetry publish
+           poetry publish
